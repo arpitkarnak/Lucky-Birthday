@@ -10,13 +10,41 @@
   <body>
     <h1>🎈🎈 Is your Birthday Lucky? 🎈🎈</h1>
     <div class="container">
-      <label for="date-of-birth">Date of Birth :</label>
+      <label id="labelDOB" for="date-of-birth">Date of Birth :</label>
       <input type="date" id="date-of-birth" />
 
-      <label for="lucky-number">Lucky Number </label>
+      <label id="labelNumber" for="lucky-number">Lucky Number : </label>
       <input id="lucky-number" type="number" />
       <button id="check-button">Check Number</button>
+
+      <div id="output-box" disabled></div>
+
+      <h2>Don't Worry We don't stored your data here</h2>
     </div>
     <script src="/index.js"></script>
+
+    <footer class="footer">
+      <div class="footer-header">Connect me on</div>
+      <ul class="social-links list-non-bullet">
+        <li class="list-item-inline">
+          <a class="link" href="https://github.com/arpitkarnak" target="_blank"
+            >Github</a
+          >
+        </li>
+        <li class="list-item-inline">
+          <a
+            class="link"
+            href="https://www.linkedin.com/in/arpitkarnak/"
+            target="_blank"
+            >Linkedin</a
+          >
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="https://twitter.com/arpitkarnak" target="_blank"
+            >Twitter</a
+          >
+        </li>
+      </ul>
+    </footer>
   </body>
 </html>
