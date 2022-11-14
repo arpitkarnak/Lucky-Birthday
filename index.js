@@ -12,10 +12,15 @@ var checkButton = document.querySelector("#check-button");
 var outputBox = document.querySelector("#output-box");
 
 function compareValues(sum,luckyNumber){
-    if(sum%luckyNumber===0){
-        outputBox.innerText="Congrats Your BirthDay Is LUCKY";
+    if(luckyNumber>0){
+         if(sum%luckyNumber===0){
+                outputBox.innerText="Congrats Your BirthDay Is LUCKY";
+            } else{
+                outputBox.innerText="Sad Your Birthday is not Lucky";
+            }
+        
     } else{
-        outputBox.innerText="Sad Your Birthday is not Lucky";
+        outputBox.innerText= "Lucky Number should be positive "
     }
 }
 

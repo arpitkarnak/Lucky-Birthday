@@ -91,11 +91,34 @@ h2 {
 #output-box {
   padding-top: 0.8rem;
   font-weight: 700;
-  color: rgb(51, 176, 185);
+  color: rgb(3, 5, 24);
+  font-size: xx-large;
+  background-color: rgb(51, 71, 64);
+  margin-top: 1em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-left: 3rem;
+  padding-right: 1rem;
+  border-radius: 2rem;
 }
 
 #labelDOB,
 #labelNumber {
   font-size: large;
   font-weight: 600;
+}
+
+input {
+  font-size: x-large;
+  padding-left: 1em;
+  outline: 3px solid rgb(0, 0, 0);
+  padding-bottom: rem;
+}
+
+label {
+  font-size: 100px;
+
+  color: black;
+  font-weight: 900;
+  padding-bottom: 0.3rem;
 }
