@@ -44,6 +44,7 @@ input {
   border-radius: 6px;
   background-color: rgb(135, 207, 144);
   border-width: medium;
+  padding: 1em;
 }
 
 .link {
